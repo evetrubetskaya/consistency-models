@@ -14,20 +14,18 @@ This project explores *Consistency Distillation (CD)* to speed up image generati
 
 - Implemented DDIM, self-consistency loss, and boundary conditions for stable training
 
-<div align="center">
-    <figure>
-        <img src="pictures/before_2.png" alt="Before Image" width="80%">
-        <figcaption style="display: block; text-align: center; width: 100%;">Before: Standard Diffusion Model (4 steps)</figcaption>
-    </figure>
-    <figure>
-        <img src="pictures/before.png" alt="Before Image" width="80%">
-        <figcaption style="display: block; text-align: center; width: 100%;">Before: Standard Diffusion Model (50 steps)</figcaption>
-    </figure>
-    <figure style="margin-top: -1px;">
-        <img src="pictures/after.png" alt="After Image" width="80%">
-        <figcaption style="display: block; text-align: center; width: 100%;">After: Consistency Model (4 steps)</figcaption>
-    </figure>
-</div>
+<p align="center">
+  <img src="pictures/before_2.png" width="80%"><br>
+  <i>Before: Standard Diffusion Model (4 steps)</i>
+</p>
+<p align="center">
+  <img src="pictures/before.png" width="80%"><br>
+  <i>Before: Standard Diffusion Model (50 steps)</i>
+</p>
+<p align="center">
+  <img src="pictures/after.png" width="80%"><br>
+  <i>After: Consistency Model (4 steps)</i>
+</p>
 
 ### 📖 **Motivation and Background**
 
